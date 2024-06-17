@@ -39,7 +39,7 @@ sudo apt install -y mpv mpv-mpris nvtop pamixer ffmpeg qimgv gimp obs-studio red
 
 # nwg-look takes the place of lxappearance in x11 
 bash ~/debian/./golang.sh
-source ~/.bashrc
+
 sudo apt install -y libgtk-3-dev libcairo2-dev libglib2.0-bin
 cd ~/Downloads
 wget https://github.com/nwg-piotr/nwg-look/archive/refs/tags/v0.2.7.zip
