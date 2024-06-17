@@ -3,7 +3,7 @@
 sudo apt install build-essential libpam0g-dev libxcb-xkb-dev -y
 # Install zig
 cd /tmp
-wegt https://ziglang.org/download/0.12.0/zig-linux-x86_64-0.12.0.tar.xz
+wget https://ziglang.org/download/0.12.0/zig-linux-x86_64-0.12.0.tar.xz
 tar xf zig-linux-x86_64-0.12.0.tar.xz
 # /tmp/zig-linux-x86_64-0.12.0/zig
 
