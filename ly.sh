@@ -9,7 +9,7 @@ tar xf zig-linux-x86_64-0.12.0.tar.xz
 
 
 # Install Ly Console Display Manager
-cd ~/Downloads
+# cd ~/Downloads
 git clone https://github.com/fairyglade/ly
 cd ly
 /tmp/zig-linux-x86_64-0.12.0/zig build
