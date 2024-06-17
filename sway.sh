@@ -8,7 +8,7 @@ xdg-user-dirs-update
 mkdir ~/Screenshots/
 
 # Sway installation for Debian Bookworm
-sudo apt install -y sway waybar swaylock swayidle swaybg
+sudo apt install -y sway waybar swaylock swayidle swaybg xwayland
 
 # Terminals
 sudo apt install -y kitty tilix
