@@ -15,4 +15,5 @@ cd ly
 /tmp/zig-linux-x86_64-0.12.0/zig build
 /tmp/zig-linux-x86_64-0.12.0/zig build run
 /tmp/zig-linux-x86_64-0.12.0/zig build installsystemd
-systemctl enable ly.service
+sudo systemctl enable ly.service
+sudo systemctl disable getty@tty2.service
