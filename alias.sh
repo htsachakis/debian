@@ -6,3 +6,5 @@
 sudo apt install -y exa curl tree git
 
 cp .bash_aliases ~/.bash_aliases
+
+source ~/.bashrc
