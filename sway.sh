@@ -38,7 +38,7 @@ sudo apt install -y pipewire pavucontrol pamixer
 sudo apt install -y mpv mpv-mpris nvtop pamixer ffmpeg qimgv gimp obs-studio redshift eog brightnessctl
 
 # nwg-look takes the place of lxappearance in x11 
-bash ./golang.sh
+bash ~/debian/./golang.sh
 source ~/.bashrc
 sudo apt install -y libgtk-3-dev libcairo2-dev libglib2.0-bin
 cd ~/Downloads
@@ -71,7 +71,7 @@ sudo apt install -y figlet galculator cpu-x udns-utils whois curl tree neofetch
 
 # Fonts and icons for now
 sudo apt install -y fonts-recommended fonts-font-awesome fonts-terminus papirus-icon-theme
-bash ./nerdfonts.sh
+bash ~/debian/./nerdfonts.sh
 
 
 # Install SDDM Console Display Manager
@@ -91,7 +91,7 @@ bash ./nerdfonts.sh
 # rm -rf rofi
 
 # .bashrc ~/.bashrc
-bash ./alias.sh
+bash ~/debian/./alias.sh
 
 # Dunst
 # alias hi="notify-send 'Hi there!' 'Welcome to my dwm desktop! ' -i ''"
