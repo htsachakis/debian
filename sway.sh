@@ -38,7 +38,9 @@ sudo apt install -y pipewire pavucontrol pamixer
 sudo apt install -y mpv mpv-mpris nvtop pamixer ffmpeg qimgv gimp obs-studio redshift eog brightnessctl
 
 # nwg-look takes the place of lxappearance in x11 
-sudo apt install -y golang libgtk-3-dev libcairo2-dev libglib2.0-bin
+bash ./golang.sh
+source ~/.bashrc
+sudo apt install -y libgtk-3-dev libcairo2-dev libglib2.0-bin
 cd ~/Downloads
 wget https://github.com/nwg-piotr/nwg-look/archive/refs/tags/v0.2.7.zip
 unzip v0.2.7.zip
@@ -69,29 +71,8 @@ sudo apt install -y figlet galculator cpu-x udns-utils whois curl tree neofetch
 
 # Fonts and icons for now
 sudo apt install -y fonts-recommended fonts-font-awesome fonts-terminus papirus-icon-theme
-mkdir -p ~/.local/share/fonts
+bash ./nerdfonts.sh
 
-cd /tmp
-fonts=( 
-"CascadiaCode"
-"FiraCode"  
-"Hack"  
-"Inconsolata"
-"JetBrainsMono" 
-"Meslo"
-"Mononoki" 
-"RobotoMono" 
-"SourceCodePro" 
-"UbuntuMono"
-)
-
-for font in ${fonts[@]}
-do
-    wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/$font.zip
-	unzip $font.zip -d $HOME/.local/share/fonts/$font/
-    rm $font.zip
-done
-fc-cache
 
 # Install SDDM Console Display Manager
 # sudo apt install --no-install-recommends -y sddm
@@ -100,37 +81,17 @@ fc-cache
 
 # wofi - confusingly similar to rofi
 # sudo apt install wofi
-sudo apt install -y bison flex
-cd ~/Downloads
-git clone https://github.com/lbonn/rofi.git
-cd rofi
-meson setup build && ninja -C build
-sudo ninja -C build install
-cd ..
-rm -rf rofi
-
+# sudo apt install -y bison flex
+# cd ~/Downloads
+# git clone https://github.com/lbonn/rofi.git
+# cd rofi
+# meson setup build && ninja -C build
+# sudo ninja -C build install
+# cd ..
+# rm -rf rofi
 
 # .bashrc ~/.bashrc
-# Aliases
-# alias ..='cd ..' 
-# alias ...='cd ../..' 
-# alias install='sudo apt install'
-# alias update='sudo apt update'
-# alias upgrade='sudo apt upgrade'
-# alias uplist='apt list --upgradable'
-# alias remove='sudo apt autoremove'
-# alias l='exa -ll --color=always --group-directories-first'
-# alias ls='exa -al --header --icons --group-directories-first'
-# alias df='df -h'
-# alias free='free -h'
-# alias myip="ip -f inet address | grep inet | grep -v 'lo$' | cut -d ' ' -f 6,13 && curl ifconfig.me && echo ' external ip'"
-# alias x="exit"
-# # Git aliases
-# alias gp="git push -u origin main"
-# alias gsave="git commit -m 'save'"
-# alias gs="git status"
-# alias gc="git clone"
-# alias tr="tree"
+bash ./alias.sh
 
 # Dunst
 # alias hi="notify-send 'Hi there!' 'Welcome to my dwm desktop! ' -i ''"
