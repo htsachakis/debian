@@ -92,7 +92,8 @@ bash ~/debian/./nerdfonts.sh
 
 # .bashrc ~/.bashrc
 bash ~/debian/./alias.sh
-
+cd ~/
+source .bashrc
 # Dunst
 # alias hi="notify-send 'Hi there!' 'Welcome to my dwm desktop! ' -i ''"
 # neofetch
