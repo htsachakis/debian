@@ -1,6 +1,7 @@
 # Aliases
 alias ..='cd ..' 
 alias ...='cd ../..' 
+alias dl='cd Downloads' 
 alias install='sudo apt install'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
