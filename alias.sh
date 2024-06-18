@@ -5,6 +5,6 @@
 # alias ls='exa -al --long --header --color=always --group-directories-first' 
 sudo apt install -y exa curl tree git
 
-cp .bash_aliases ~/.bash_aliases
+cp ~/debian/.bash_aliases ~/.bash_aliases
 
 source ~/.bashrc
