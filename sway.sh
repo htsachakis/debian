@@ -38,18 +38,18 @@ sudo apt install -y pipewire pavucontrol pamixer
 sudo apt install -y mpv mpv-mpris nvtop pamixer ffmpeg qimgv gimp obs-studio redshift eog brightnessctl
 
 # nwg-look takes the place of lxappearance in x11 
-bash ~/debian/./golang.sh
+# bash ~/debian/./golang.sh
 
-sudo apt install -y libgtk-3-dev libcairo2-dev libglib2.0-bin
-cd ~/Downloads
-wget https://github.com/nwg-piotr/nwg-look/archive/refs/tags/v0.2.7.zip
-unzip v0.2.7.zip
-cd nwg-look-0.2.7
-make build
-sudo make install
-cd ..
-rm -rf nwg-look-0.2.7
-rm v0.2.7.zip
+# sudo apt install -y libgtk-3-dev libcairo2-dev libglib2.0-bin
+# cd ~/Downloads
+# wget https://github.com/nwg-piotr/nwg-look/archive/refs/tags/v0.2.7.zip
+# unzip v0.2.7.zip
+# cd nwg-look-0.2.7
+# make build
+# sudo make install
+# cd ..
+# rm -rf nwg-look-0.2.7
+# rm v0.2.7.zip
 
 # EXA installation
 # replace ls command in .bashrc file with line below
