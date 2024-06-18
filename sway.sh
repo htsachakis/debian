@@ -75,8 +75,8 @@ bash ~/debian/./nerdfonts.sh
 
 
 # Install SDDM Console Display Manager
-# sudo apt install --no-install-recommends -y sddm
-# sudo systemctl enable sddm
+sudo apt install --no-install-recommends -y sddm
+sudo systemctl enable sddm
 
 
 # wofi - confusingly similar to rofi
