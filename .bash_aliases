@@ -18,3 +18,8 @@ alias gsave="git commit -m 'save'"
 alias gs="git status"
 alias gc="git clone"
 alias tr="tree"
+# Flatpak
+alias fp="flatpak"
+alias fps="flatpak search"
+alias fpi="flatpak install"
+alias fpr="flatpak uninstall"
