@@ -26,7 +26,7 @@ sudo systemctl enable acpid
 sudo apt install -y thunar thunar-archive-plugin thunar-volman file-roller
 
 # Browser Installation (eg. chromium)
-sudo apt install -y chromium firefox-esr
+# sudo apt install -y chromium firefox-esr
 
 # dunst or mako
 sudo apt install -y dunst unzip xdotool libnotify-dev
