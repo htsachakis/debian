@@ -3,8 +3,19 @@
 sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-flatpak install -y com.github.hluk.copyq
-flatpak install -y com.github.tchx84.Flatseal
-flatpak install -y com.google.Chrome
-flatpak install -y com.microsoft.Edge
-flatpak install -y com.visualstudio.code
+flatpak install -y flathub io.github.flattool.Warehouse
+flatpak install -y flathub com.github.hluk.copyq
+flatpak install -y flathub com.github.tchx84.Flatseal
+flatpak install -y flathub com.google.Chrome
+flatpak install -y flathub com.microsoft.Edge
+flatpak install -y flathub com.visualstudio.code
+flatpak install -y flathub com.discordapp.Discord
+flatpak install -y flathub com.usebottles.bottles
+flatpak install -y flathub org.gnome.Boxes
+flatpak install -y flathub net.lutris.Lutris
+flatpak install -y flathub com.jetbrains.PyCharm-Professional
+flatpak install -y flathub com.jetbrains.WebStorm
+flatpak install -y flathub com.jetbrains.PhpStorm
+flatpak install -y flathub com.jetbrains.DataGrip
+flatpak install -y flathub com.jetbrains.GoLand
+flatpak install -y flathub com.axosoft.GitKraken
