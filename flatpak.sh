@@ -21,8 +21,8 @@ flatpak install -y flathub net.lutris.Lutris
 # Developing
 flatpak install -y flathub com.visualstudio.code
 flatpak install -y flathub com.axosoft.GitKraken
-flatpak install -y flathub com.jetbrains.PyCharm-Professional
-flatpak install -y flathub com.jetbrains.WebStorm
-flatpak install -y flathub com.jetbrains.PhpStorm
-flatpak install -y flathub com.jetbrains.DataGrip
-flatpak install -y flathub com.jetbrains.GoLand
+# flatpak install -y flathub com.jetbrains.PyCharm-Professional
+# flatpak install -y flathub com.jetbrains.WebStorm
+# flatpak install -y flathub com.jetbrains.PhpStorm
+# flatpak install -y flathub com.jetbrains.DataGrip
+# flatpak install -y flathub com.jetbrains.GoLand

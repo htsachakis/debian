@@ -5,7 +5,7 @@ sudo apt install -y build-essential cmake cmake-extras curl gettext libnotify-bi
 
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
-mkdir ~/Screenshots/
+mkdir ~/Pictures/Screenshots/
 
 # Sway installation for Debian Bookworm
 sudo apt install -y sway waybar swaylock swayidle swaybg swayimg xwayland wlogout swaykbdd
@@ -35,7 +35,7 @@ sudo apt install -y dunst unzip xdotool libnotify-dev
 sudo apt install -y pipewire pavucontrol pamixer
 
 # Multimedia
-sudo apt install -y mpv mpv-mpris nvtop pamixer ffmpeg qimgv gimp obs-studio redshift eog brightnessctl
+sudo apt install -y mpv mpv-mpris pamixer ffmpeg qimgv gimp obs-studio redshift eog brightnessctl #nvtop
 
 # nwg-look takes the place of lxappearance in x11 
 # bash ~/debian/./golang.sh
