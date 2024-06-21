@@ -9,8 +9,11 @@ flatpak install -y flathub com.github.tchx84.Flatseal
 flatpak install -y flathub io.github.giantpinkrobots.flatsweep
 # Utilities
 flatpak install -y flathub com.github.hluk.copyq
+flatpak install -y flathub org.gnome.Calendar
 # Browser
 flatpak install -y flathub com.google.Chrome
+flatpak install -y org.mozilla.firefox
+flatpak install -y com.vivaldi.Vivaldi
 flatpak install -y flathub com.microsoft.Edge
 # Communication
 flatpak install -y flathub com.discordapp.Discord
