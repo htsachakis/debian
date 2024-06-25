@@ -10,6 +10,7 @@ flatpak install -y flathub io.github.giantpinkrobots.flatsweep
 # Utilities
 flatpak install -y flathub com.github.hluk.copyq
 flatpak install -y flathub org.gnome.Calendar
+flatpak install -y io.missioncenter.MissionCenter
 # Browser
 flatpak install -y flathub com.google.Chrome
 flatpak install -y org.mozilla.firefox
