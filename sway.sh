@@ -35,7 +35,7 @@ sudo apt install -y dunst unzip xdotool libnotify-dev
 sudo apt install -y pipewire pavucontrol pamixer
 
 # Multimedia
-sudo apt install -y mpv mpv-mpris pamixer ffmpeg qimgv gimp obs-studio redshift eog brightnessctl #nvtop
+sudo apt install -y clapper mpv mpv-mpris pamixer ffmpeg qimgv gimp obs-studio redshift eog brightnessctl vlc #nvtop
 
 # nwg-look takes the place of lxappearance in x11 
 # bash ~/debian/./golang.sh
@@ -77,7 +77,7 @@ bash ~/debian/./nerdfonts.sh
 # Install SDDM Console Display Manager
 sudo apt install --no-install-recommends -y sddm
 sudo systemctl enable sddm
-
+sudo apt install -y sddm-theme-debian-breeze
 
 # wofi - confusingly similar to rofi
 # sudo apt install wofi
