@@ -54,7 +54,8 @@ sudo apt install -y clapper mpv mpv-mpris pamixer ffmpeg qimgv gimp obs-studio r
 # EXA installation
 # replace ls command in .bashrc file with line below
 # alias ls='exa -al --long --header --color=always --group-directories-first' 
-sudo apt install -y exa
+# sudo apt install -y exa
+sudo apt install -y eza
 
 # Printing and bluetooth (if needed)
 # sudo apt install -y cups system-config-printer simple-scan
