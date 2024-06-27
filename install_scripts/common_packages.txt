@@ -8,6 +8,8 @@ feh
 rofi
 dunst
 eza
+picom
+nitrogen
 fonts-recommended
 fonts-font-awesome
 fonts-terminus
@@ -30,6 +32,5 @@ network-manager
 network-manager-gnome
 pipewire
 wireplumber
-pavucontrol
 firefox-esr
 chromium
