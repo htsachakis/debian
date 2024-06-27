@@ -8,7 +8,6 @@ feh
 rofi
 dunst
 eza
-picom
 nitrogen
 fonts-recommended
 fonts-font-awesome
