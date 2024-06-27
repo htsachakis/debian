@@ -1,0 +1,16 @@
+xorg
+xserver-xorg
+xbacklight
+xbindkeys
+xvkbd
+xinput
+build-essential
+git
+xdg-user-dirs
+cmake
+cmake-extras
+curl
+wget
+zip
+unzip
+golang
