@@ -28,6 +28,8 @@ pulsemixer
 policykit-1-gnome 
 network-manager
 network-manager-gnome
-pamixe
+pipewire
+wireplumber
+pavucontrol
 firefox-esr
 chromium
