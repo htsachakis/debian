@@ -4,6 +4,7 @@ xbacklight
 xbindkeys
 xvkbd
 xinput
+wev
 build-essential
 git
 xdg-user-dirs
