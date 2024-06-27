@@ -15,3 +15,11 @@ wget
 zip
 unzip
 golang
+lxpolkit
+x11-xserver-utils
+libx11-dev
+libxft-dev
+libxinerama-dev
+libx11-xcb-dev
+libxcb-res0-dev
+xdg-utils
